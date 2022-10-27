@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MorseCode Translator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://bootswatch.com/5/lux/bootstrap.css">
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <!-- Nav Bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Morsecode Translator</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="https://github.com/koehlertimo">Github</a>
+            <li class="nav-item">
+                <a class="nav-link" href="https://timokoehler.com">Personal Website</a>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <form id="form" action="/" method="GET">
+        <p>Please insert your Text here: <br></p>
+        <input type="text" id="textinput">     
+        <input type="submit" value="Translate!">
+      </form>
+
+
+      <h2>Output: </h2>
+      <span id="output"></span>
+
+</body>
+</html>
