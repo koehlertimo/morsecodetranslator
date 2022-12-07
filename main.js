@@ -44,8 +44,9 @@ function translateToMorseCode(inputString){
 console.log(translateToMorseCode("Was geht ab"))
 
 
+//create a variable called inputtext and assign it the value of the input field
+let inputtext = document.getElementById("inputtext");
 
+//set the id output to the return value of the function translateToMorseCode with the inputtext as parameter
+document.getElementById("output").innerHTML = translateToMorseCode(inputtext.value);
 
-let inputText = document.getElementById('textinput');
-
-document.getElementById('output').innerHTML = translateToMorseCode(inputText);
